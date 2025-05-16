@@ -3,15 +3,15 @@ agp = "8.6.1"
 constraintlayoutCompose = "1.1.1"
 coreSplashscreen = "1.0.1"
 hiltAndroid = "2.51.1"
-hiltAndroidCompiler = "2.45"
-hiltCompiler = "2.44"
+hiltAndroidCompiler = "2.51.1"
+hiltCompiler = "2.51.1"
 hiltNavigationCompose = "1.2.0"
 kotlin = "2.0.0"
 coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-kotlinStdlibJdk8 = "2.0.21"
+kotlinStdlibJdk8 = "2.0.0"
 lifecycleRuntimeKtx = "2.9.0"
 activityCompose = "1.10.1"
 composeBom = "2025.05.00"
@@ -22,7 +22,7 @@ constraintlayout = "2.2.1"
 materialIconsExtended = "1.7.8"
 navigationCompose = "2.9.0"
 runtimeAndroid = "1.8.1"
-jetbrainsKotlinJvm = "1.9.0"
+jetbrainsKotlinJvm = "2.0.0"
 animationCoreLint = "1.8.1"
 lifecycleViewmodelAndroid = "2.9.0"
 hilt = "2.44"
@@ -33,6 +33,7 @@ androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constr
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
 androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
