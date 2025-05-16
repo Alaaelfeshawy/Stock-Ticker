@@ -7,10 +7,13 @@ import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
 class GetStocksListUseCase @Inject constructor(
-    private val homeRepository: IHomeRepository
+   private val iHomeRepository : IHomeRepository
 ) {
 
-    operator fun invoke():Flow<List<StockModel>>{
-        return flow { emit(homeRepository.getStocks()) }
+    operator fun invoke(): Flow<List<StockModel>> {
+        return flow {
+            emit(iHomeRepository.getStocks())
+        }
     }
+
 }

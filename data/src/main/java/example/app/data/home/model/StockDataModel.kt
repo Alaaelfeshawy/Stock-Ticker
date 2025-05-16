@@ -13,7 +13,7 @@ data class StockDataModel(
     val currency: String
 )
 
-fun StockDataModel.mapTpStockModel() : StockModel{
+fun StockDataModel.mapToStockModel() : StockModel{
     return StockModel(
         symbol = this.symbol,
         name = this.name,

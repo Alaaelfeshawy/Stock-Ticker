@@ -1,14 +1,10 @@
 package example.app.data.home.datasource
 
 import example.app.data.home.model.StockDataModel
-import kotlinx.coroutines.delay
-import javax.inject.Inject
 
-class HomeDataSourceImpl @Inject constructor() : IHomeDataSource {
+class YahooDataSource : IHomeDataSource {
     override suspend fun getStocks(): List<StockDataModel> {
-        delay(800)
-
-        return listOf(
+        return  listOf(
             StockDataModel("AAPL", "Apple Inc.", 190.12, -1.45, -0.76, "USD"),
             StockDataModel("GOOGL", "Alphabet Inc.", 2751.35, 15.62, 0.57, "USD"),
             StockDataModel("TSLA", "Tesla Inc.", 710.22, 5.18, 0.73, "USD"),
